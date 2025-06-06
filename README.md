@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# a9ra_brk_front
+
+This is the frontend for the **A9ra Brk** platform, built with Next.js, React, and Tailwind CSS. It provides the user interface and client-side logic for the A9ra Brk application.
+
+## Features
+
+- Built using [Next.js](https://nextjs.org/) for server-side rendering and static site generation.
+- Modern React (v19) for component-based architecture.
+- Styled with [Tailwind CSS](https://tailwindcss.com/) and custom themes.
+- Utilizes [lucide-react](https://lucide.dev/) for icons.
+- Animated UI with `tailwindcss-animate`.
+- Supports dark and light themes.
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally:
 
 ```bash
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/app` - Main Next.js app directory
+- `/components` - Reusable UI components
+- `/pages` - Additional Next.js pages (if present)
+- `/public` - Static assets (images, etc.)
+- `tailwind.config.js` - Tailwind CSS configuration
+- `package.json` - Project metadata and scripts
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+- The theme is configured with custom color palettes and supports dark/light switching.
+- Modify `tailwind.config.js` and global CSS for further UI adjustments.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Available Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev` — Start the development server
+- `npm run build` — Build for production
+- `npm run start` — Start the production server
+- `npm run lint` — Run linting
 
-## Deploy on Vercel
+## Dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `next` 15.x
+- `react` 19.x
+- `react-dom` 19.x
+- `lucide-react`
+- `tailwindcss`
+- `tailwindcss-animate`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is private and intended for the A9ra Brk platform.
+
+---
+
+> _For questions or contributions, contact the project owner._
